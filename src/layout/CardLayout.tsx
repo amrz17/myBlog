@@ -11,7 +11,7 @@ export const CardLayout = (props: Props) => {
   return (
     <>
       <Link to={props.to}>
-        <div className="flex items-center justify-center py-4">
+        <div className="flex justify-center py-2">
           <Card className="w-[90%]">
             <CardHeader>
               <img src={props.imgMk} />

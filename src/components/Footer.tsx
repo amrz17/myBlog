@@ -2,7 +2,7 @@ import { socials } from "../const/index.ts";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center border border-t-black">
+    <footer className="flex justify-center bg-color3 text-white">
       <div className="flex flex-col lg:justify-between w-full gap-8 p-6">
         <div className="flex justify-between">
           <h2 className="text-xl">Thanks for coming!</h2>

@@ -1,16 +1,19 @@
 import { step } from "@/assets/images";
-import Nav from "@/components/Nav";
 import { CardLayout } from "@/layout/CardLayout";
+import MainLayout from "@/layout/MainLayout";
 
-export const DataMining = () => {
+const DataMining = () => {
   return (
-    <>
-      <Nav />
-      <CardLayout
-        to="data-mining/tahapan-data-mining"
-        imgMk={step}
-        title="Tahapan pada Data Mining"
-      />
-    </>
+    <MainLayout>
+      <div className="h-[30rem]">
+        <CardLayout
+          to="/data-mining/week1"
+          imgMk={step}
+          title="Data Mining & Tahapannya"
+        />
+      </div>
+    </MainLayout>
   );
 };
+
+export default DataMining;

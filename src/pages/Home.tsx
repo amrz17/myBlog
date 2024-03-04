@@ -1,13 +1,14 @@
 import { dataMining } from "@/assets/images";
-import Nav from "@/components/Nav";
 import { CardLayout } from "@/layout/CardLayout";
+import MainLayout from "@/layout/MainLayout";
 
 const Home = () => {
   return (
-    <>
-      <Nav />
-      <CardLayout to="/data-mining" imgMk={dataMining} title="Data Mining" />
-    </>
+    <MainLayout>
+      <div className="h-[30rem]">
+        <CardLayout to="/data-mining" imgMk={dataMining} title="Data Mining" />
+      </div>
+    </MainLayout>
   );
 };
 

@@ -2,9 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { DataMining } from "./pages/DataMining.tsx";
 import Home from "./pages/Home.tsx";
-import { ProcessDM } from "./pages/ProcessDM.tsx";
+import DataMining from "./pages/DataMining.tsx";
+import ProcessDM from "./pages/Week1/ProcessDM.tsx";
+import CrispDm from "./pages/Week1/CrispDM.tsx";
+import Ccc from "./pages/Week1/Ccc.tsx";
+import Semma from "./pages/Week1/Semma.tsx";
 
 const router = createBrowserRouter([
   {
@@ -14,12 +17,22 @@ const router = createBrowserRouter([
   {
     path: "/data-mining",
     element: <DataMining />,
-    children: [
-      {
-        path: "tahapan-data-mining",
-        element: <ProcessDM />,
-      },
-    ],
+  },
+  {
+    path: "/data-mining/week1",
+    element: <ProcessDM />,
+  },
+  {
+    path: "/data-mining/week1/crisp-dm",
+    element: <CrispDm />,
+  },
+  {
+    path: "/data-mining/week1/semma",
+    element: <Semma />,
+  },
+  {
+    path: "/data-mining/week1/ccc",
+    element: <Ccc />,
   },
 ]);
 
