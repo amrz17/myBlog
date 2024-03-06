@@ -8,19 +8,18 @@ interface Prop {
 
 const Body = (props: Prop) => {
   return (
-    <main className="flex justify-center">
+    <div className="flex justify-center">
       <div
         className="flex flex-col items-center  
-        w-[95%] lg:w-[75%] my-4 gap-2"
+        w-[95%] lg:w-[70%] my-4 gap-2"
       >
         <h1 className="text-center text-4xl font-bold">{props.title}</h1>
-        <div></div>
         <div>
-          <img src={props.img} className="" />
+          <img src={props.img} className="border border-black" />
         </div>
         <div
           className="flex justify-between w-full p-2 
-          font-bold border border-b-black"
+          font-bold underline"
         >
           <div className="flex gap-2">
             <img src={aMer} width={35} className="h-[35px] rounded-full" />
@@ -33,10 +32,10 @@ const Body = (props: Prop) => {
           </div>
         </div>
         <div>
-          <p className="text-lg text-justify p-1">{props.article}</p>
+          <div className="text-lg text-justify p-1">{props.article}</div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

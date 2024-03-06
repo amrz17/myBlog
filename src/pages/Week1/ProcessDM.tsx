@@ -1,4 +1,5 @@
 import { ccc, crispDm, semma, step } from "@/assets/images";
+import { LinkTreeWeek1 } from "@/components/LinkTree";
 import Body from "@/layout/Body";
 import { CardLayout } from "@/layout/CardLayout";
 import MainLayout from "@/layout/MainLayout";
@@ -6,6 +7,7 @@ import MainLayout from "@/layout/MainLayout";
 const ProcessDM = () => {
   return (
     <MainLayout>
+      <LinkTreeWeek1 />
       <Body
         title="Data Mining dan Tahapannya"
         img={step}
@@ -23,14 +25,15 @@ const ProcessDM = () => {
           </p>
         }
       />
-
-      <CardLayout
-        to="/data-mining/week1/crisp-dm"
-        imgMk={crispDm}
-        title="CRISP-DM"
-      />
-      <CardLayout to="/data-mining/week1/semma" imgMk={semma} title="SEMMA" />
-      <CardLayout to="/data-mining/week1/ccc" imgMk={ccc} title="CCC" />
+      <div className="flex flex-col justify-center items-center gap-2">
+        <CardLayout
+          to="/data-mining/week1/crisp-dm"
+          imgMk={crispDm}
+          title="CRISP-DM"
+        />
+        <CardLayout to="/data-mining/week1/semma" imgMk={semma} title="SEMMA" />
+        <CardLayout to="/data-mining/week1/ccc" imgMk={ccc} title="CCC" />
+      </div>
     </MainLayout>
   );
 };

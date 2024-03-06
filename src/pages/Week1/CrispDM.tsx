@@ -1,10 +1,12 @@
 import { crispDm } from "@/assets/images";
+import { LinkTreeWeek1 } from "@/components/LinkTree";
 import Body from "@/layout/Body";
 import MainLayout from "@/layout/MainLayout";
 
 const CrispDm = () => {
   return (
     <MainLayout>
+      <LinkTreeWeek1 />
       <Body
         title="CRISP-DM"
         img={crispDm}

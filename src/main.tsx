@@ -6,8 +6,8 @@ import Home from "./pages/Home.tsx";
 import DataMining from "./pages/DataMining.tsx";
 import ProcessDM from "./pages/Week1/ProcessDM.tsx";
 import CrispDm from "./pages/Week1/CrispDM.tsx";
-import Ccc from "./pages/Week1/Ccc.tsx";
 import Semma from "./pages/Week1/Semma.tsx";
+import Ccc from "./pages/Week1/Ccc.tsx";
 
 const router = createBrowserRouter([
   {

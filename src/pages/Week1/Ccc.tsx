@@ -1,10 +1,12 @@
 import { ccc } from "@/assets/images";
+import { LinkTreeWeek1 } from "@/components/LinkTree";
 import Body from "@/layout/Body";
 import MainLayout from "@/layout/MainLayout";
 
 const Ccc = () => {
   return (
     <MainLayout>
+      <LinkTreeWeek1 />
       <Body
         title="SEMMA"
         img={ccc}
