@@ -28,4 +28,16 @@ export const LinkTreeWeek1 = () => {
   );
 };
 
+export const LinkTreeWeek2 = () => {
+  return (
+    <LinkTree>
+      <Link to="/">Home</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining">Data Mining</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining/week2">Week 2</Link>
+    </LinkTree>
+  );
+};
+
 export default LinkTree;

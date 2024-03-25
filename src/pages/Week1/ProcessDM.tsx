@@ -11,6 +11,7 @@ const ProcessDM = () => {
       <Body
         title="Data Mining dan Tahapannya"
         img={step}
+        date="4 Maret 2024"
         article={
           <p>
             Data mining adalah sebuah proses yang dilakukan dalam pengumpulan

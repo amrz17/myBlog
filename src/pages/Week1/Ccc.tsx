@@ -10,6 +10,7 @@ const Ccc = () => {
       <Body
         title="SEMMA"
         img={ccc}
+        date="4 Maret 2024"
         article={
           <p>
             CCC (Crisp Cross-Industry Process for Data Mining) adalah kerangka

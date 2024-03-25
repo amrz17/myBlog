@@ -8,6 +8,8 @@ import ProcessDM from "./pages/Week1/ProcessDM.tsx";
 import CrispDm from "./pages/Week1/CrispDM.tsx";
 import Semma from "./pages/Week1/Semma.tsx";
 import Ccc from "./pages/Week1/Ccc.tsx";
+import DataPreparation from "./pages/Week2/DataPreparation.tsx";
+import DataVisualization from "./pages/Week2/DataVisualization.tsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
   {
     path: "/data-mining/week1/ccc",
     element: <Ccc />,
+  },
+  {
+    path: "/data-mining/week2",
+    element: <DataPreparation />,
+  },
+  {
+    path: "/data-mining/week2/data-visual",
+    element: <DataVisualization />,
   },
 ]);
 

@@ -10,6 +10,7 @@ const Semma = () => {
       <Body
         title="SEMMA"
         img={semma}
+        date="4 Maret 2024"
         article={
           <p>
             SEMMA adalah singkatan dari "Sample, Explore, Modify, Model,

@@ -10,6 +10,7 @@ const CrispDm = () => {
       <Body
         title="CRISP-DM"
         img={crispDm}
+        date="4 Maret 2024"
         article={
           <p>
             CRISP-DM merupakan singkatan dari Cross-Industry Standard Process
