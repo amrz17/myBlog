@@ -1,4 +1,4 @@
-import { dataPrep, step } from "@/assets/images";
+import { dataPrep, dataPreprocess, discuss, step } from "@/assets/images";
 import LinkTree from "@/components/LinkTree";
 import { CardLayout } from "@/layout/CardLayout";
 import MainLayout from "@/layout/MainLayout";
@@ -13,7 +13,7 @@ const DataMining = () => {
         <Link to="/data-mining">Data Mining</Link>
       </LinkTree>
       <div
-        className="md:h-screen flex flex-col lg:flex-row justify-center
+        className="flex flex-col lg:flex-row lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:overflow-clip justify-center
         mb-2"
       >
         <CardLayout
@@ -25,6 +25,16 @@ const DataMining = () => {
           to="/data-mining/week2"
           imgMk={dataPrep}
           title="Data Preparation & visualization"
+        />
+        <CardLayout
+          to="/data-mining/week3"
+          imgMk={dataPreprocess}
+          title="Data Preprocessing"
+        />
+        <CardLayout
+          to="/data-mining/week4"
+          imgMk={discuss}
+          title="Diskusi Kelompok"
         />
       </div>
     </MainLayout>

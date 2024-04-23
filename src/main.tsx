@@ -10,6 +10,8 @@ import Semma from "./pages/Week1/Semma.tsx";
 import Ccc from "./pages/Week1/Ccc.tsx";
 import DataPreparation from "./pages/Week2/DataPreparation.tsx";
 import DataVisualization from "./pages/Week2/DataVisualization.tsx";
+import DataPreprocessing from "./pages/Week3/DataProprocessing.tsx";
+import Discussion from "./pages/Week4/Discussion.tsx";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
   {
     path: "/data-mining/week2/data-visual",
     element: <DataVisualization />,
+  },
+  {
+    path: "/data-mining/week3",
+    element: <DataPreprocessing />,
+  },
+  {
+    path: "/data-mining/week4",
+    element: <Discussion />,
   },
 ]);
 

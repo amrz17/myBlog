@@ -40,4 +40,27 @@ export const LinkTreeWeek2 = () => {
   );
 };
 
+export const LinkTreeWeek3 = () => {
+  return (
+    <LinkTree>
+      <Link to="/">Home</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining">Data Mining</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining/week3">Week 3</Link>
+    </LinkTree>
+  );
+};
+export const LinkTreeWeek4 = () => {
+  return (
+    <LinkTree>
+      <Link to="/">Home</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining">Data Mining</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining/week4">Week 4</Link>
+    </LinkTree>
+  );
+};
+
 export default LinkTree;

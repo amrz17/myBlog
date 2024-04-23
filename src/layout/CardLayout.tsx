@@ -11,10 +11,13 @@ export const CardLayout = (props: Props) => {
   return (
     <>
       <Link to={props.to}>
-        <div className="flex justify-center py-2 lg:w-[600px] lg:h-[360px]">
-          <Card className="flex justify-center items-center flex-col w-[90%] hover:shadow-blue-800 rounded-xl">
+        <div className="flex justify-center py-2 ">
+          <Card className="flex justify-center items-center flex-col w-[350px] lg:w-[380px] hover:shadow-blue-800 rounded-xl">
             <CardHeader>
-              <img src={props.imgMk} width={490} className="lg:h-[250px]" />
+              <img
+                src={props.imgMk}
+                className="w-[490px] h-[158px] lg:h-[220px]"
+              />
             </CardHeader>
             <CardTitle>
               <p className="pb-4 text-center text-gray-800">{props.title}</p>
