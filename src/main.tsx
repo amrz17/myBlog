@@ -12,6 +12,7 @@ import DataPreparation from "./pages/Week2/DataPreparation.tsx";
 import DataVisualization from "./pages/Week2/DataVisualization.tsx";
 import DataPreprocessing from "./pages/Week3/DataProprocessing.tsx";
 import Discussion from "./pages/Week4/Discussion.tsx";
+import Quiz1 from "./pages/Week5/Quiz1.tsx";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: "/data-mining/week4",
     element: <Discussion />,
+  },
+  {
+    path: "/data-mining/week5",
+    element: <Quiz1 />,
   },
 ]);
 

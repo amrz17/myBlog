@@ -9,6 +9,11 @@ import dataVisual from "./dataVisual.png";
 import preprocessing from "./pre-processing.png";
 import dataPreprocess from "./data-preprocess.jpg";
 import discuss from "./9907640_4293769.svg";
+import quiz from "./quiz.jpg";
+import analisis1 from "./analisis_1.png";
+import analisis2 from "./analisis_2.png";
+import analisis3 from "./analisis_3.png";
+import analisis4 from "./analisis_4.png";
 
 export {
   dataMining,
@@ -22,4 +27,9 @@ export {
   preprocessing,
   dataPreprocess,
   discuss,
+  quiz,
+  analisis1,
+  analisis2,
+  analisis3,
+  analisis4,
 };

@@ -1,4 +1,4 @@
-import { dataPrep, dataPreprocess, discuss, step } from "@/assets/images";
+import { dataPrep, dataPreprocess, discuss, quiz, step } from "@/assets/images";
 import LinkTree from "@/components/LinkTree";
 import { CardLayout } from "@/layout/CardLayout";
 import MainLayout from "@/layout/MainLayout";
@@ -36,6 +36,7 @@ const DataMining = () => {
           imgMk={discuss}
           title="Diskusi Kelompok"
         />
+        <CardLayout to="/data-mining/week5" imgMk={quiz} title="Quiz 1" />
       </div>
     </MainLayout>
   );
