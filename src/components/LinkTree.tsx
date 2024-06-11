@@ -74,4 +74,16 @@ export const LinkTreeWeek5 = () => {
     </LinkTree>
   );
 };
+
+export const LinkTreeWeek10 = () => {
+  return (
+    <LinkTree>
+      <Link to="/">Home</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining">Data Mining</Link>
+      <span className="no-underline">/</span>
+      <Link to="/data-mining/week10">Week 10</Link>
+    </LinkTree>
+  );
+};
 export default LinkTree;

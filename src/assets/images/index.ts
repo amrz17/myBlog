@@ -14,6 +14,7 @@ import analisis1 from "./analisis_1.png";
 import analisis2 from "./analisis_2.png";
 import analisis3 from "./analisis_3.png";
 import analisis4 from "./analisis_4.png";
+import SL from "./SL.png";
 
 export {
   dataMining,
@@ -32,4 +33,5 @@ export {
   analisis2,
   analisis3,
   analisis4,
+  SL,
 };

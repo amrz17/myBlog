@@ -1,4 +1,11 @@
-import { dataPrep, dataPreprocess, discuss, quiz, step } from "@/assets/images";
+import {
+  SL,
+  dataPrep,
+  dataPreprocess,
+  discuss,
+  quiz,
+  step,
+} from "@/assets/images";
 import LinkTree from "@/components/LinkTree";
 import { CardLayout } from "@/layout/CardLayout";
 import MainLayout from "@/layout/MainLayout";
@@ -13,8 +20,8 @@ const DataMining = () => {
         <Link to="/data-mining">Data Mining</Link>
       </LinkTree>
       <div
-        className="flex flex-col lg:flex-row lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:overflow-clip justify-center
-        mb-2"
+        className="xl:h-screen flex flex-col lg:flex-row lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:overflow-clip justify-center
+        mt-4"
       >
         <CardLayout
           to="/data-mining/week1"
@@ -37,6 +44,11 @@ const DataMining = () => {
           title="Diskusi Kelompok"
         />
         <CardLayout to="/data-mining/week5" imgMk={quiz} title="Quiz 1" />
+        <CardLayout
+          to="/data-mining/week10"
+          imgMk={SL}
+          title="Supervised Learning"
+        />
       </div>
     </MainLayout>
   );

@@ -5,7 +5,7 @@ import MainLayout from "@/layout/MainLayout";
 const Home = () => {
   return (
     <MainLayout>
-      <div className="h-[30rem] lg:h-[42rem] flex justify-center items-center">
+      <div className="h-screen flex justify-center items-center">
         <CardLayout to="/data-mining" imgMk={dataMining} title="Data Mining" />
       </div>
     </MainLayout>
